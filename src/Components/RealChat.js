@@ -13,7 +13,7 @@ function RealChat({ location }) {
   const [name, setName] = useState("");
   const [users, setUsers] = useState([]);
 
-  const apiEndPoint = "http://localhost:5000";
+  const apiEndPoint = "https://chitchat-react.herokuapp.com/";
 
   let user = {
     name: name,
