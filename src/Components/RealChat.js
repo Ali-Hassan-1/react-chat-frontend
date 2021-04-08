@@ -37,10 +37,8 @@ function RealChat({ location }) {
       if (users.length > 1) {
         const newUsers = users.filter((user) => user !== userName);
         setUsers([...newUsers, userName]);
-        console.log(newUsers);
       } else {
         users.push(userName);
-        console.log(users);
       }
       // users.push();
     });
