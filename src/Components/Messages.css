@@ -1,0 +1,53 @@
+.message__area {
+    background: rgb(206, 230, 230);
+    height: 50vh;
+    min-height: 60vh;
+    width: 77.8vh;
+    padding: 10px;
+    border-left: 3px solid lightcyan;
+    overflow-y: auto;
+}
+
+.message__area::-webkit-scrollbar {
+    display: none;
+}
+
+.message__area h4 {
+    color: red;
+    border-left: 3px solid red;
+    text-indent: 4px;
+
+}
+
+.message__area p {
+    text-indent: 7px;
+    margin-top: 2px;
+}
+
+.incoming__message {
+    background: rgb(166, 233, 100);
+    max-width: 30vh;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(133, 117, 117);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    float: left;
+    clear: both;
+}
+
+.outgoing__message {
+    background: rgb(163, 217, 241);
+    max-width: 50vh;
+    min-width: 12vh;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(133, 117, 117);
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    float: right;
+    clear: both;
+}
+
